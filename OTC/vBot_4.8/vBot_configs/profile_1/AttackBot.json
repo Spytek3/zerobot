@@ -1,0 +1,197 @@
+{
+  "AttackBot": [
+    {
+      "attackTable": [
+        {
+          "description": "[7 Sqm] 1 Any Creatures: exevo gran mas tera , targeted (0%-100%)",
+          "mana": 1,
+          "orMore": false,
+          "monsters": true,
+          "category": 1,
+          "spell": "exevo gran mas tera ",
+          "pattern": 7,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 8,
+          "maxHp": 100,
+          "count": 1,
+          "minHp": 0,
+          "itemId": 0
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #1",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": true,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+        {
+          "itemId": 0,
+          "mana": 25,
+          "minHp": 0,
+          "monsters": true,
+          "category": 5,
+          "spell": "exevo gran mas frigo",
+          "count": 2,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 4,
+          "enabled": true,
+          "cooldown": 2,
+          "maxHp": 100,
+          "orMore": true,
+          "description": "[Medium Area] 2+ Any Creatures: exevo gran mas frigo, absolute (0%-100%)",
+          "pattern": 4
+        },
+        {
+          "itemId": 3155,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": true,
+          "category": 3,
+          "spell": "exori frigo",
+          "count": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 3,
+          "enabled": true,
+          "cooldown": 2,
+          "maxHp": 100,
+          "orMore": false,
+          "description": "[10 Sqm Range] 1 Any Creatures: rune 3155, targeted (0%-100%)",
+          "pattern": 10
+        },
+        {
+          "itemId": 0,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": true,
+          "category": 1,
+          "spell": "Exori Frigo",
+          "count": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 2,
+          "maxHp": 100,
+          "orMore": true,
+          "description": "[3 Sqm] 1+ Any Creatures: Exori Frigo, targeted (0%-100%)",
+          "pattern": 3
+        },
+        {
+          "itemId": 0,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": [
+            "ghoul"
+          ],
+          "category": 1,
+          "spell": "Exori Frigo",
+          "count": 1,
+          "creatures": "ghoul",
+          "tooltip": "ghoul",
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 2,
+          "maxHp": 100,
+          "orMore": false,
+          "description": "[3 Sqm] 1 Creatures: Exori Frigo, targeted (0%-100%)",
+          "pattern": 3
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #2",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": false,
+      "enabled": false,
+      "KillsAmount": 2,
+      "BlackListSafe": true
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #3",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #4",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": false,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    },
+    {
+      "attackTable": [
+        {
+          "itemId": 0,
+          "mana": 1,
+          "minHp": 0,
+          "monsters": true,
+          "category": 1,
+          "spell": "exori con",
+          "count": 1,
+          "creatures": "monster names",
+          "tooltip": false,
+          "patternCategory": 1,
+          "enabled": true,
+          "cooldown": 1,
+          "maxHp": 100,
+          "orMore": true,
+          "description": "[7 Sqm] 1+ Any Creatures: exori con, targeted (0%-100%)",
+          "pattern": 7
+        }
+      ],
+      "Visible": true,
+      "Kills": false,
+      "name": "Profile #5",
+      "ignoreMana": true,
+      "Rotate": false,
+      "AntiRsRange": 5,
+      "Cooldown": true,
+      "pvpMode": false,
+      "PvpSafe": true,
+      "enabled": true,
+      "KillsAmount": 1,
+      "BlackListSafe": false
+    }
+  ],
+  "currentBotProfile": 1
+}

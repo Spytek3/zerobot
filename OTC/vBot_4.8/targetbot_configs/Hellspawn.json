@@ -1,0 +1,79 @@
+{
+  "looting": {
+    "items": [
+      {
+        "count": 1,
+        "id": 3392
+      },
+      {
+        "count": 1,
+        "id": 3386
+      },
+      {
+        "count": 1,
+        "id": 7402
+      },
+      {
+        "count": 1,
+        "id": 3280
+      },
+      {
+        "count": 1,
+        "id": 3428
+      },
+      {
+        "count": 1,
+        "id": 7421
+      },
+      {
+        "count": 1,
+        "id": 7452
+      },
+      {
+        "count": 1,
+        "id": 3369
+      }
+    ],
+    "maxDanger": 10,
+    "minCapacity": 5,
+    "containers": [
+      {
+        "count": 1,
+        "id": 2854
+      }
+    ],
+    "everyItem": false
+  },
+  "targeting": [
+    {
+      "lureDelay": 372,
+      "lureMin": 1,
+      "maxDistance": 10,
+      "anchorRange": 1,
+      "lureCount": 1,
+      "avoidAttacks": false,
+      "rePositionAmount": 2,
+      "lureMax": 2,
+      "regex": "^hellspawn$",
+      "chase": true,
+      "priority": 1,
+      "keepDistance": false,
+      "closeLure": true,
+      "danger": 0,
+      "keepDistanceRange": 1,
+      "lure": false,
+      "dynamicLureDelay": false,
+      "dynamicLure": true,
+      "faceMonster": false,
+      "lureCavebot": false,
+      "dontLoot": false,
+      "diamondArrows": false,
+      "delayFrom": 1,
+      "anchor": false,
+      "closeLureAmount": 2,
+      "rePosition": true,
+      "name": "Hellspawn",
+      "rpSafe": false
+    }
+  ]
+}
